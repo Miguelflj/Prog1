@@ -1,0 +1,21 @@
+
+
+def main():
+    numB = []
+    numD = int(intput())
+    flag = True
+    while flag == True:
+
+        numB.append(numD%2)
+        numD = numD / 2
+        
+        if(numD >= 1):
+            flag = False
+            
+
+                
+    numB = sorted(numB)
+    
+    print "numero binario" + str(numB)
+    
+main()

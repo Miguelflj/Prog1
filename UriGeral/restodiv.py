@@ -1,0 +1,16 @@
+def main():
+    vet = []
+    x = int(input())
+    y = int(input())
+    if(x > y):
+        aux = x
+        x = y
+        y = aux
+    for i in range(x+1,y):
+        if(i%5 == 2 or i%5 == 3):
+            vet.append(i)
+    vet = sorted(vet)
+    for i in range(len(vet)):
+        print vet[i]
+
+main()  

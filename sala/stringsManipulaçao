@@ -1,0 +1,29 @@
+
+
+STRINGS (CONT.)
+
+
+
+tabulaçao - \t
+quebra de linha - \n
+
+
+-> Métidos para manipulação de Strings:
+
+s = variavel com string
+
+- s.lower()/ s.upper() # converte todas as letras em minusculo / # converte todas as letras em maiusculo
+
+- s.strip() # quebra tomando como espaço padrão
+
+- s.isalpha() / s.isdigit() / s.isspace() #ele verifica se é palavra/numero/espaço devolvendo true or false
+
+- s.startswith('other') / s.endswith('other') #verifica se o inicio da string confere com o parametro devolvendo true or false
+
+- s.find('other') #retonar a posiçao da primeira ocorrencia do parametro
+
+- s.replace('old','new') # substitui a primeira do parametro pra segunda
+
+- s.split('delim')
+
+- s.join(list) # concatena strings
